@@ -5,8 +5,8 @@
 - algoritma deskriptif:
 1. Mulai
 2. Siapkan gelas yang sudah berisi teh dan kopi
-3. Siapkan satu wadah untuk penampungan sementara (mangkuk, botol, gelas, atau apapun yang cukup untuk menampung seluruh teh di gelas A)
-4. Tuangkan seluruh teh di dalam gelas A ke wadah penampungan sementara
+3. Siapkan satu wadah baru (gelas C) untuk penampungan sementara yang cukup untuk menampung seluruh teh di gelas A.
+4. Tuangkan seluruh teh di dalam gelas A ke gelas C.
 5. Tuangkan seluruh kopi di gelas B ke gelas A.
-6. Tuangkan seluruh teh yang ada di penampungan sementara ke gelas B.
+6. Tuangkan seluruh teh yang ada di gelas C ke gelas B.
 7. selesai.
