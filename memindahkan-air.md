@@ -1,8 +1,8 @@
-Memindahkan air di dalam gelas.
+# Memindahkan air di dalam gelas.
 
-case: terdapat 2 gelas, gelas A berisi teh dan gelas B berisi kopi. pindahkan teh ke gelas B dan pindahkan kopi ke gelas A.
+## case: terdapat 2 gelas, gelas A berisi teh dan gelas B berisi kopi. pindahkan teh ke gelas B dan pindahkan kopi ke gelas A.
 
-algoritma deskriptif:
+- algoritma deskriptif:
 1. Mulai
 2. Siapkan gelas yang sudah berisi teh dan kopi
 3. Siapkan satu wadah untuk penampungan sementara (mangkuk, botol, gelas, atau apapun yang cukup untuk menampung seluruh teh di gelas A)
