@@ -9,6 +9,8 @@ oPiTrue@{ shape: lean-r, label: "output: 22/7"}
 oPiFalse@{ shape: lean-r, label: "output: 3.14"}
 luasLingkaran@{ shape: rect, label: "pi * r * r" }
 kelilingLingkaran@{ shape: rect, label: "2 * pi * r" }
+outKeliling@{ shape: lean-r, label: "output: kelilingLingkaran"}
+outLuas@{ shape: lean-r, label: "output: luasLingkaran"}
 stop@{shape: dbl-circ, label: "Selesai"}
 
 start-->inputJari
@@ -19,11 +21,15 @@ decisionPi--False-->oPiFalse
 oPiTrue-->decisionHitung
 decisionHitung--Luas Lingkaran-->luasLingkaran
 decisionHitung--Keliling Lingkaran-->kelilingLingkaran
-kelilingLingkaran-->stop
-luasLingkaran-->stop
+kelilingLingkaran-->outKeliling
+outKeliling-->stop
+luasLingkaran-->outLuas
+outLuas-->stop
 oPiFalse-->decisionHitung
 decisionHitung--Luas Lingkaran-->luasLingkaran
 decisionHitung--Keliling Lingkaran-->kelilingLingkaran
-kelilingLingkaran-->stop
-luasLingkaran-->stop
+kelilingLingkaran-->outKeliling
+outKeliling-->stop
+luasLingkaran-->outLuas
+outLuas-->stop
 ```
