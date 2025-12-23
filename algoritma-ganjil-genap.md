@@ -1,4 +1,4 @@
-#Algoritma: Menentukan bilangan ganjil atau genap
+# Algoritma: Menentukan bilangan ganjil atau genap
 
 - Algoritma Deskriptif:
 1. Mulai
