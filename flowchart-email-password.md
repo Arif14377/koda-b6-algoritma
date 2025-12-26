@@ -15,7 +15,7 @@ decisionIsi--True-->outputKosong
 outputKosong-->input
 decisionIsi--False-->decisionLogin
 decisionLogin--True-->outputBerhasil
-decisionLogin--True-->outputGagal
+decisionLogin--False-->outputGagal
 outputGagal-->input
 outputBerhasil-->stop
 ```
